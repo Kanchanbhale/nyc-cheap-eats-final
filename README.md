@@ -5,6 +5,9 @@ A narrow-domain Q&A chatbot that recommends cheap places to eat in New York City
 **Live URL:** https://nyc-cheap-eats-1026658918129.us-central1.run.app  
 **GitHub:** https://github.com/Kanchanbhale/nyc-cheap-eats-final
 
+<img width="924" height="699" alt="Screenshot 2026-03-02 at 10 51 42 PM" src="https://github.com/user-attachments/assets/028a599d-6410-45a2-b401-1124a4e6e41b" />
+
+
 ## What this project demonstrates
 
 - FastAPI backend + simple web UI
