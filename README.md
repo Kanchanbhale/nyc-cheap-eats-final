@@ -30,7 +30,8 @@ uv sync
 ### 2) Authenticate with GCP (one-time)
 
 ```bash
-gcloud auth application-default login
+gcloud auth login
+gcloud config set project ieor-agentic-1
 ```
 
 
@@ -39,7 +40,7 @@ gcloud auth application-default login
 Create a `.env` file with:
 
 ```env
-VERTEXAI_PROJECT=ieor-4576
+VERTEXAI_PROJECT=ieor-agentic-1
 VERTEXAI_LOCATION=us-central1
 ```
 
@@ -67,18 +68,18 @@ This runs:
 ## Deploy to GCP Cloud Run
 
 ```bash
-gcloud run deploy nyc-cheap-eats \
+gcloud run deploy nyc-cheap-eats-final \
   --source . \
   --region us-central1 \
   --allow-unauthenticated \
-  --project ieor-4576
+  --project ieor-agentic-1
 ```
 
 
 ## Suggested project structure
 
 ```text
-nyc-cheap-eats/
+nyc-cheap-eats-final/
 ├── app.py
 ├── static/
 │   └── index.html
