@@ -71,7 +71,7 @@ This runs:
 ## Deploy to GCP Cloud Run
 
 ```bash
-gcloud run deploy nyc-cheap-eats-final \
+gcloud run deploy nyc-cheap-eats \
   --source . \
   --region us-central1 \
   --allow-unauthenticated \
