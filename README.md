@@ -33,7 +33,6 @@ uv sync
 gcloud auth application-default login
 ```
 
-Log in with your Columbia Google account when prompted.
 
 ### 3) Environment
 
@@ -75,7 +74,6 @@ gcloud run deploy nyc-cheap-eats \
   --project ieor-4576
 ```
 
-Cloud Run will print a public URL. Paste that into the **Live URL** field above.
 
 ## Suggested project structure
 
@@ -96,11 +94,3 @@ nyc-cheap-eats/
 └── README.md
 ```
 
-## Before you submit
-
-1. Push this repo to GitHub.
-2. Deploy to Cloud Run.
-3. Replace the two placeholder URLs at the top of this README.
-4. In CourseWorks:
-   - submit the **GitHub repo URL** in the URL field
-   - paste the **live Cloud Run URL** in the comment
