@@ -2,8 +2,8 @@
 
 A narrow-domain Q&A chatbot that recommends cheap places to eat in New York City for under $15.
 
-**Live URL:** `ADD-YOUR-CLOUD-RUN-URL-HERE`  
-**GitHub:** `ADD-YOUR-GITHUB-REPO-URL-HERE`
+**Live URL:** `https://nyc-cheap-eats-1026658918129.us-central1.run.app`  
+**GitHub:** `https://github.com/Kanchanbhale/nyc-cheap-eats-final`
 
 ## What this project demonstrates
 
